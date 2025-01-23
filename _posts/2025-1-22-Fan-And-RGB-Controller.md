@@ -8,7 +8,7 @@ In this blog I will lay out the goals and steps I will take to one day create my
 
 There is no guarantee I will achieve a satisfactory end result from this project, but I hope I will learn plenty from the attempt and the challenges I face. 
 
-Motivation:
+## Motivation:
 
 I currently make use of mostly Corsair components with an ASUS motherboard. This is fortunate as ASUS has integration with Corsair’s ICUE software so I can control fan curves and RGB from one place. However, Corsair’s ICUE software has several issues:
 
@@ -21,7 +21,7 @@ For the above reasons, I would like to stop using ICUE if possible. However, I c
 
 
 
-Goals:
+## Goals:
 
 The end goal of this project will be to create a majority-hardware solution for fan and rgb control. This will require a PCB with fan and rgb ports, as well as controller chip and storage, and a way to change profiles on the controller and power the board.
 
@@ -30,7 +30,7 @@ The hope of this solution is that there will be no performance impact on my syst
 
 
 
-Initial Solutions:
+## Initial Solutions:
 
 Some parts of the final solution are obvious now. Molex or sata can be used to power the final board. Thermistors which fit seamlessly into a waterloop already exist. I believe Corsair, despite using a proprietary standard connector, uses a standard ARGB protocol. 
 
@@ -38,7 +38,7 @@ Some parts of the final solution are obvious now. Molex or sata can be used to p
 
 
 
-Steps:
+## Steps:
 
 I will be breaking this project into smaller, more manageable steps in hopes of making the end goal easier to reach.
 
@@ -56,6 +56,6 @@ I will create a new blog at the end step 3, outlining progress thus far and elab
 
 
 
-Stretch goals:
+## Stretch goals:
 
 If this project ends up being easier than intended, I will look at adding wifi capabilities so the fan curves and RGB patterns can be altered remotely, possibly via a mobile app.
