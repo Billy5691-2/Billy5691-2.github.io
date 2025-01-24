@@ -1,7 +1,7 @@
-  ---
-  layout: post
-  title: Embedded Systems Module - Final Assessment
-  ---
+---
+layout: post
+title: Embedded Systems Module - Final Assessment
+---
 
 This blog post will look back at my final assessment for my embedded systems module during bachelor's degree.
 
