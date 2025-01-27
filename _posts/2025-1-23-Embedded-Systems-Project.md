@@ -9,7 +9,7 @@ This blog post will look back at my final assessment for my embedded systems mod
 
 The overall assessment was based around simulating very basic robots. A server in the university was set up, and when sent a properly formatted request it would provide the initial starting information for a simulation. This would include the number of robots, their position in the world, and their heading. We would then have the simulate the robots according the parameters laid out in the brief and display the output on a screen. 
 
-4 Types of robots where laid out:
+4 Types of robots were laid out:
 1. Simple robots which travelled in a straight line unless they interacted with another robot.
 2. Chasers, which would attempt to follow other robots if they came within a certain distance.
 3. Evaders, which would attempt to move away from other robots.
