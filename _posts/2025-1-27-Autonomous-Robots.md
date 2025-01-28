@@ -63,8 +63,23 @@ I also had a random assignment system, but that was purely as a control.
 
 Why I chose to change the assignment systems was for 3 reasons. One was safety. By allowing the robots to pick more optimal and different item types, they would be less likely to move close to each other which would reduce the risk of collisions and the need for evasive maneuvers. The second was productiviy. Avoiding collsions wastes time which reduces productivity, and allowing the robots to focus on the most optimal items increases productivity by reducing travel time. Thirdly, there was also value in collecting the items which were more distant, as they may be more productive to collect than items that appeared immediately closer. 
 
-As such, I tested the multiple systems to see which were the safest (had the fewest collisions), and were the most productive. 
+## Results:
 
+I established my results through both qualiative and quantitative analysis. For quantitative analysis, I tracked the number of items collected and their value, and the number of crashes that occured. Qualitative analysis involved watching several runs of the robots and looking for patterns and behaviours that could explain the results and areas for improvement.
+
+From my experiments, I found that an assignment system which kept the robots apart but allowed them to pick the items which appeared easiest to collect was the best. This allowed the robots to collect as efficiently as possible while also minimising or completely avoiding crashes entirely. Assignments where robots had commonly overlapping targets, or even targeted the same items, resulted in a significant number of crash avoidance events and even some crashes while productivity was significantly reduced.
+
+## Looking Back: 
+
+There are several positives that I can look back on from this assessment. This was my first time using Python in a more embedded environment and I found it quite intuituive. I was also quite happy with the results from my work. While imperfect, I was happy with the effectiveness of my solution. The robots worked well together, increasing productivity significantly. And the robots were effective at avoiding crashes, as well mitigating crashes when they occured.
+
+However, there was also room for improvement. The robots were still able to run into scenarios where they crashed into each other. I believe this happened due to the robots not reporting the centre coordinate of their position, instead reporting one of the corners. This meant they could believe they were further apart than intended. I believe this same issue also caused problems with the LIDAR, with similar results. Better information on where the robot was and where it was going could also let the robots ignore taking evasive action when they were only going to pass near an object, instead of possibly crashing into.
+
+I also think the robots could have coordinated with other better, reporting what actions they were taking and how they were avoiding a crash. By making better use of communication, the robots would not have to use as much time moving apart during an evasive manuevuer. 
+
+Furthermore, when collecting items, the robots could've recorded and tracked the location of other items they see so that on their next run, they could go straight to the most optimal item instead of wasting time looking. 
+
+Overall, I am very happy with how this project went and I may come back to ROS2 in future. Thank you for reading. 
 
 
 
