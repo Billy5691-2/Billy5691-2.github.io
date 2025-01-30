@@ -24,3 +24,9 @@ The next board I looked at was the Ardunio Uno 4. Like the Nano, this had all th
 I did look through some of the more high end models of Arduino, but found they provided no extra functionality to justify the higher price for my project. 
 
 With the board sorted, I also purchased a 12V 2A barrel jack power supply to power the board and the fan I would be running my tests with. While not ideal as there was a risk of overstressing the components of the Arduino from high power draw, I decided to would be an acceptable risk for the testing stage, and I would avoid drawing too much power through the board to avoid damage. 
+
+For a test fan, I decided to use a basic 120mm PWM fan I had spare from previous computer builds. 
+
+For the thermistor, I will ultimately use an in waterloop thermistor with a preattached fitting, so for now I will use a basic thermistor from a hobby electronics kit, along with a breadboard and resistors. 
+
+
