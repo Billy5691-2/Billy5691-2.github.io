@@ -35,6 +35,9 @@ For software, I will be using what Arduino offers as I am using an Arduino board
 
 I plan on first implementing basic PWN control for the fan. This will help me familairse myself with the software and PWM control. I will then move onto temperature reading, which I do not expect to be much of a challenge. After which I will combine PWM control of the fan with the temperature reading to have the temperature affect the PWM speed. And lastly, I will work on making the fan react in a manner appropriate to temperature changes. This means leaving time for fans to ramp up and down at a rate that won't create awful noise, and avoiding unnecessary changes in speed for brief temperature swings. 
 
+## Completion:
+
+I will move onto the next stage when I am able to control a fan with a thermistor and produce an acceptable sound when the temperature changes. I will not aim for perfect fan curve control, that will be more of a focus in later stages of the project, nearer to completion. 
 
 
 
