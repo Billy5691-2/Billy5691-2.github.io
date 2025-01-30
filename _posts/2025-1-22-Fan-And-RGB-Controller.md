@@ -32,7 +32,7 @@ The hope of this solution is that there will be no performance impact on my syst
 
 ## Initial Solutions:
 
-Some parts of the final solution are obvious now. Molex or sata can be used to power the final board. Thermistors which fit seamlessly into a waterloop already exist. I believe Corsair, despite using a proprietary standard connector, uses a standard ARGB protocol. 
+Some parts of the final solution are obvious now. Molex or sata can be used to power the final board. Thermistors which fit seamlessly into a waterloop already exist. I believe Corsair, despite using a proprietary standard connector, uses a standard ARGB protocol so I should only have to use one communication protocol for all RGB. 
 
 
 
@@ -42,9 +42,9 @@ Some parts of the final solution are obvious now. Molex or sata can be used to p
 
 I will be breaking this project into smaller, more manageable steps in hopes of making the end goal easier to reach.
 
-Step 1 will be to use an Arduino Nano to control one fan with a thermistor. This will allow me to understand fan curves, fan ramp up and down, as well as temperature inputs. All while avoiding more complicated issues. I have researched this and know it is possible.
+Step 1 will be to use an Arduino to control one fan with a thermistor. This will allow me to understand fan curves, fan ramp up and down, as well as temperature inputs. All while avoiding more complicated issues. I have researched this and know it is possible.
 
-Step 2 will be to use the Arduino Nano to control an ARGB strip. This will give me a chance to learn about the ARGB signal protocols and programming my own interesting patterns. I have not researched this so far, but believe it will be possible.
+Step 2 will be to use the Arduino to control an ARGB strip. This will give me a chance to learn about the ARGB signal protocols and programming my own interesting patterns. I have not researched this so far, but believe it will be possible.
 
 Step 3 will be to incorporate step 1 and 2 into the same program.
 
