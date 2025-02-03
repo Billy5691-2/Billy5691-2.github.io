@@ -8,9 +8,9 @@ With the Arduino arriving in the post a few days ago, I can now discuss my progr
 
 Within a day of getting my hands on the Arduino, I was able to achieve most of my desired goals for stage 1. 
 
-![Arduino connected to fan](https://github.com/Billy5691-2/Billy5691-2.github.io/blob/main/images/Arduino_Fan_Thermistor_1.jpg?raw=true)
+![Arduino connected to fan](https://github.com/Billy5691-2/Billy5691-2.github.io/blob/master/images/Arduino_Fan_Thermistor_1.jpg?raw=true)
 
-![Arduino thermsitor circuit](https://github.com/Billy5691-2/Billy5691-2.github.io/blob/main/images/Arduino_Fan_Thermistor_2.jpg?raw=true)
+![Arduino thermsitor circuit](https://github.com/Billy5691-2/Billy5691-2.github.io/blob/master/images/Arduino_Fan_Thermistor_2.jpg?raw=true)
 
 I successfully implemented a thermistor circuit and attached the fan to the Arduino Uno 4. I was then able to implement a program to read the voltage from the thermistor circuit and convert it into a temperature. I was also able to implement PWM control over the fan, and combine the two functions to have a temperature controlled fan. 
 
@@ -28,7 +28,7 @@ The rolling temperature program also caused some issues. Initially I had a list 
 
 I managed to work around the bug by using multiple assignments, however, in the process I discovered a better solution to my problem. Instead of propogating previous temperatures through the list, I instead track an index which rolls over at the end of the list and is used to update values in the list. This makes the program marginally faster as less calculations are required per loop. 
 
-![Rolling Temperature Implementaion:](https://github.com/Billy5691-2/Billy5691-2.github.io/blob/main/images/Rolling_Temp_Code.jpg?raw=true)
+![Rolling Temperature Implementaion:](https://github.com/Billy5691-2/Billy5691-2.github.io/blob/master/images/Rolling_Temp_Code.jpg?raw=true)
 
 My final challenge is one of physics and is not directly related to the above challenge. The Uno R4 operates at 5V with a buck converter capable of producting 1A of current. To provide power to the fan and the board, I use a 12V 3A power supply. The fan operates at 12V 0.2A, leaving plenty of headroom to power the board and anything else. However, the 5V supply is much more limited. And while trying to test the feasilibty of my next stage of this project, I found that using an RGB strip I have spare was simply too draining for the Arduino's buck converter, causing it to power off. Therefore, if I wish to proceed to the next stage, I will have to add an additional power source.
 
